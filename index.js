@@ -1,5 +1,5 @@
 import express from "express";
-import { deleteCuadro, createCuadro, read } from "./repo";
+import { deleteCuadro, createCuadro, read } from "./repo.js";
 
 const servidor = express();
 
